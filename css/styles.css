@@ -52,3 +52,7 @@ footer {
   font-weight: bold;
   font-size: 1.5625rem;
 }
+footer p a img{
+  width: 35px;
+  height: 35px;
+}

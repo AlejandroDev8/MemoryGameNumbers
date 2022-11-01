@@ -1,0 +1,54 @@
+body {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(28, 105, 100, 1) 100%
+  );
+  font-family: sans-serif;
+  color: #ffffff;
+}
+main {
+  width: 50%;
+  margin: 3.125rem auto;
+  display: flex;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+}
+.section-one {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0 0.625rem 0.625rem 0.625rem;
+  border-radius: 0.625rem;
+}
+button {
+  width: 6.25rem;
+  height: 6.25rem;
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+button:hover {
+  cursor: pointer;
+}
+.section-two {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 15.625rem;
+  height: 25rem;
+  border-top-right-radius: 0.625rem;
+  border-bottom-right-radius: 0.625rem;
+  padding: 0 1.25rem;
+}
+.stats {
+  border: 0.0625rem solid #ffffff;
+  height: 6.5625rem;
+  border-radius: 0.625rem;
+  padding: 0.625rem 1.25rem;
+  box-sizing: border-box;
+}
+footer {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5625rem;
+}
